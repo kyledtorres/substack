@@ -1,0 +1,23 @@
+[project]
+name = "nba-dashboard"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "kyledtorres",email = "kyledtorres03@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=3.0.5,<4.0.0)",
+    "numpy (>=2.5.1,<3.0.0)",
+    "requests (>=2.34.2,<3.0.0)",
+    "ipykernel (>=7.3.0,<8.0.0)",
+    "matplotlib (>=3.11.1,<4.0.0)",
+    "nba-api (>=1.11.4,<2.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
